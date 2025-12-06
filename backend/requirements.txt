@@ -1,3 +1,10 @@
 fastapi
 uvicorn
 python-multipart
+openai
+chromadb
+pypdf
+python-docx
+python-pptx
+python-dotenv
+xhtml2pdf
