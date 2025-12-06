@@ -192,7 +192,7 @@ export default function NewsletterForm() {
                 </label>
                 <select
                   id="tone-select"
-                  className="w-full border rounded-lg px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-2 py-1.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none cursor-pointer"
                   value={tone}
                   onChange={(e) => setTone(e.target.value)}
                 >
@@ -212,7 +212,7 @@ export default function NewsletterForm() {
                 </label>
                 <select
                   id="audience-select"
-                  className="w-full border rounded-lg px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-2 py-1.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none cursor-pointer"
                   value={audience}
                   onChange={(e) => setAudience(e.target.value)}
                 >
@@ -232,7 +232,7 @@ export default function NewsletterForm() {
                 </label>
                 <select
                   id="length-select"
-                  className="w-full border rounded-lg px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-2 py-1.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none cursor-pointer"
                   value={length}
                   onChange={(e) => setLength(e.target.value)}
                 >

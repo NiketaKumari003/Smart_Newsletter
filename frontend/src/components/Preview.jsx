@@ -41,8 +41,8 @@ export default function Preview({ newsletter, loading }) {
         </div>
       )}
 
-      <div className="prose prose-sm max-w-none">
-        <div dangerouslySetInnerHTML={{ __html: newsletter.html_body }} />
+      <div className="prose prose-sm max-w-none text-gray-800 prose-p:text-gray-700 prose-headings:text-gray-900 prose-strong:text-gray-900">
+        <div dangerouslySetInnerHTML={{ __html: newsletter.html_body }} className="[&_*]:!text-inherit" />
       </div>
 
       {newsletter.cta_text && (
